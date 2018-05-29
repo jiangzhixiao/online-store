@@ -140,6 +140,7 @@ repositories {
 }
 
 dependencies {
+    compile('org.apache.flex.blazeds:blazeds-spring-boot-starter:4.7.3')
     compile "org.springframework.boot:spring-boot-starter-cache"
     compile "io.github.jhipster:jhipster"
     compile "io.dropwizard.metrics:metrics-core"
